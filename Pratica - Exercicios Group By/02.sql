@@ -1,0 +1,1 @@
+SELECT educations."userId" AS id, COUNT (educations."courseId") AS educations FROM educations GROUP BY educations."userId";
